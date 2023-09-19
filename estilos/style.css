@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    height: 97.9vh;
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+div.phone {
+    background-image: url(../imagens/frame-iphone.png);
+    height: 627px;
+    width: 312px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.logo {
+    text-align: right;
+}
+
+
+div.logo > a > img{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+div.logo > a > img:hover {
+    transition-duration: 0.3s;
+    height: 55px;
+    width: 55px;
+    margin-right: 5px;
+    border: 2px solid white;
+}
+
+
+iframe.tela {
+    background-image:  url(../imagens/tela-home.jpg);
+    background-size: contain;
+    margin-top: 80px;
+    margin-left: 22px;
+    width: 267px;
+    height: 472px;
+}
+
+
